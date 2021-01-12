@@ -22,8 +22,8 @@ What is the expected output?
 
 
 
-# output
+# Output
 1.	out.txt - translated "t8.shakespeare" file
 2.	ouput.txt - it contains No.of occurrece in each word in "find_words" file and total time taken of the program and Memory of the program.
-3.	occurrence.cve- it have three column English,French,Occurrence(word no.of times occur in passage)
+3.	occurrence.csv- it have three column English,French,Occurrence(word no.of times occur in passage)
 4.	output.py – it is main program it call lol.txt and french_dictionary.csv files.
