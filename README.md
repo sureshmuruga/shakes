@@ -19,7 +19,8 @@ What is the expected output?
 6.	Memory taken to process
 
 
+
 # output are 3 files
-1.out.txt - translated "t8.shakespeare" file
-2.ouput.txt - it contains No.of occurrece in each word in "find_words" file and total time taken of the program and Memory of the program.
-3.occurrence.cve- it have three column English,French,Occurrence(word no.of times occur in passage)
+1.	out.txt - translated "t8.shakespeare" file
+2.	ouput.txt - it contains No.of occurrece in each word in "find_words" file and total time taken of the program and Memory of the program.
+3.	occurrence.cve- it have three column English,French,Occurrence(word no.of times occur in passage)
