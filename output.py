@@ -64,7 +64,7 @@ with open("occurence.csv","w") as csvfile:
     #csvwriter.writerows(record)
 end=time.time()
 print("\nRuntime of the program is: %.2f"%((end-start)/60),"min")
-print("Memory useage of program: ","%.2f"%(((psutil.virtual_memory().used/1024)/1024)/1024),"mb")
+print("Memory useage of program: ","%.2f"%(((psutil.virtual_memory().used),"byte")
 print("...end....")
 
 '''
