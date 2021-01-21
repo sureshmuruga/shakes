@@ -1,3 +1,4 @@
+>>> 
 =========== RESTART: C:\Users\Murali dharan\Desktop\Exeter\output.py ==========
 abide   42
 about   365
@@ -1000,6 +1001,6 @@ yours   498
 yourself   0
 youth   309
 
-Runtime of the program is: 2.05 min
-Memory useage of program:  1044848640 byte
+Runtime of the program is: 2.17 min
+Memory useage of program:  15.046875 mb
 ...end....
