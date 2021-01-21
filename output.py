@@ -8,7 +8,9 @@ import psutil
 start=time.time()
 dict={}
 count={}
-
+psutil.pids()
+ps= psutil.Process(os.getpid())
+#print(dir(psutil))
 with open('french_dictionary.csv') as File:
     reader = csv.reader(File, delimiter=',', quotechar=',',
                         quoting=csv.QUOTE_MINIMAL)
@@ -64,7 +66,7 @@ with open("occurence.csv","w") as csvfile:
     #csvwriter.writerows(record)
 end=time.time()
 print("\nRuntime of the program is: %.2f"%((end-start)/60),"min")
-print("Memory useage of program: ","%.2f"%(((psutil.virtual_memory().used),"byte")
+print("Memory useage of program: ",(ps.memory_info().rss/1024**2),"mb")
 print("...end....")
 
 '''
